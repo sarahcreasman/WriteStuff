@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Write Stuff</string>
+
+    <!-- Main Menu Strings -->
+    <string name="lbl_todo">To Do List</string>
+    <string name="lbl_notes">Notebook</string>
+    <string name="lbl_timer">Timer</string>
+    <string name="lbl_names">Name Dictionary</string>
+    <string name="lbl_feedback">Feedback/Suggestions</string>
+
+    <!-- To Do List Strings -->
+    <string name="tdlbl_item">Item</string>
+    <string name="tdlbal_done">Done</string>
+
+    <!-- Notebook Strings -->
+    <string name="note_title">Title...</string>
+    <string name="note_content">Type your note...</string>
+
+    <!-- Timer Strings -->
+    <string name="timer_minute">Minutes</string>
+    <string name="timer_prompt">Enter time in minutes:</string>
+    <string name="timer_start">00:00:00</string>
+
+    <!-- Name Dictionary Strings -->
+    <string name="name_male">Male</string>
+    <string name="name_female">Female</string>
+    <string name="name_neutral">Neutral</string>
+    <string name="name_search">Search</string>
+
+    <!-- Feedback Strings -->
+    <string name="feedback_name">Name/Alias</string>
+    <string name="feedback_email">Email Address</string>
+    <string name="feedback_subject">Subject</string>
+    <string name="feedback_message">Message</string>
+    <string name="feedback_send">Send Email</string>
+    <string name="feedback_clear">Clear</string>
+
+    <!-- Menu Strings -->
+    <string name="menu_tdadd">Add</string>
+    <string name="menu_noteadd">New Note</string>
+
+    <!-- Feedback Subject Array -->
+    <string-array name="array_fb_subject">
+        <item>Suggest a Name</item>
+        <item>Suggest Something Else</item>
+        <item>Problem</item>
+        <item>General Feedback</item>
+    </string-array>
+
+    <!-- Name Dictionary Male -->
+    <string-array name="array_names_male">
+        <item>Aaron (Hebrew) \n \t Meaning: High mountain, exalted, enlightened</item>
+        <item>Archer (English) \n \t Meaning: Bowman</item>
+        <item>Benjamin (Hebrew) \n \t Meaning: Son of the right hand</item>
+        <item>Brent (English) \n \t Meaning: Dweller near the burnt land</item>
+        <item>Callum (Latin) \n \t Meaning: Dove</item>
+        <item>Cole (English) \n \t Meaning: Swarthy black coal</item>
+        <item>Craig (Scottish) \n \t Meaning: From the rocks</item>
+        <item>Donatello (Latin) \n \t Meaning: To give</item>
+        <item>Edward (English) \n \t Meaning: Wealthy Guardian</item>
+        <item>Fletcher (English) \n \t Meaning: Arrow-maker</item>
+        <item>Gabriel (Hebrew) \n \t Meaning: God is my strength</item>
+        <item>Gregory (Greek) \n \t Meaning: Vigilant, a watchman</item>
+        <item>Hakeem (Arabic) \n \t Meaning: Judicious</item>
+        <item>Harrison (English) \n \t Meaning: Son of Harry</item>
+        <item>Jeffrey (German) \n \t Meaning: Pledge of Peace</item>
+        <item>Jonah (Hebrew) \n \t Meaning: Dove</item>
+        <item>Kenneth (Scottish) \n \t Meaning: Born of fire, handsome</item>
+        <item>Landon (English) \n \t Meaning: Long hill</item>
+        <item>Lucas (Latin) \n \t Meaning: Man from Luciana</item>
+        <item>Malachi (Hebrew) \n \t Meaning: My messenger</item>
+    </string-array>
+
+    <!-- Name Dictionary Female -->
+    <string-array name="array_names_female">
+        <item>Aurora (Latin) \n \t Meaning: Dawn</item>
+        <item>Ayla (Hebrew) \n \t Meaning: Oak tree, or halo, moonlight</item>
+        <item>Bianca (Italian) \n \t Meaning: White</item>
+        <item>Caroline (French) \n \t Meaning: Free man</item>
+        <item>Charlene (French) \n \t Meaning: Free man</item>
+        <item>Charlotte (French) \n \t Meaning: Free man</item>
+        <item>Delia (Greek) \n \t Meaning: Born on the island of Delos</item>
+        <item>Ebony (English) \n \t Meaning: Deeply black wood</item>
+        <item>Elena (Spanish) \n \t Meaning: Bright, shining light</item>
+        <item>Elizabeth (Hebrew) \n \t Meaning: Pledged to God</item>
+        <item>Jade (Spanish) \n \t Meaning: Stone of the side</item>
+        <item>Josephine (French) \n \t Meaning: Jehovah increases</item>
+        <item>Kristen (Danish) \n \t Meaning: A Christian</item>
+        <item>Lucinda (Spanish) \n \t Meaning: Light</item>
+        <item>Lydia (Greek) \n \t Meaning: Woman from Lydia</item>
+        <item>Madeline (English) \n \t Meaning: High tower</item>
+        <item>Malia (Hawaiian) \n \t Meaning: Bitter</item>
+        <item>Marilyn (Welsh) \n \t Meaning: Lake</item>
+        <item>Mollie (Hebrew) \n \t Meaning: Bitter</item>
+        <item>Nadia (Russian) \n \t Meaning: Hope</item>
+
+    </string-array>
+
+    <!-- Name Dictionary Neutral -->
+    <string-array name="array_names_neutral">
+        <item>August (Latin) \n \t Meaning: Great, magnificent, majestic, venerable</item>
+        <item>Campbell (Scottish) \n \t Meaning: Crooked mouth</item>
+        <item>Cassidy (Irish) \n \t Meaning: Curly haired</item>
+        <item>Dallas (Irish) \n \t Meaning: Skilled</item>
+        <item>Elliot (English) \n \t Meaning: Jehovah is God</item>
+        <item>Evan (Welsh) \n \t Meaning: The Lord is gracious</item>
+        <item>Evelyn (English) \n \t Meaning: Wished for child</item>
+        <item>Flynn (English) \n \t Meaning: Son of the Red-Haired one</item>
+        <item>Ira (Hebrew) \n \t Meaning: Watchful one</item>
+        <item>James (Hebrew) \n \t Meaning: Supplanter</item>
+        <item>Jean (French) \n \t Meaning: God is Gracious</item>
+        <item>Jesse (Hebrew) \n \t Meaning: Gift</item>
+        <item>Kelsey (English) \n \t Meaning: Island</item>
+        <item>Lincoln (English) \n \t Meaning: Town by the pool</item>
+        <item>Logan (Scottish) \n \t Meaning: Little hollow</item>
+        <item>Mason (English) \n \t Meaning: Stoneworker</item>
+        <item>Noah (Hebrew) \n \t Meaning: Rest, wandering, comfort</item>
+        <item>Piper (English) \n \t Meaning: Pipe or flute player</item>
+        <item>Quinn (Irish) \n \t Meaning: Descendent of Conn, chief leader, intelligence</item>
+        <item>Rohan (Hindi) \n \t Meaning: Sandalwood</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

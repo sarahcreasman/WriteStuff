@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/timer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/timer_circle"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/drawable_circle_dark"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="100"
+        android:progressDrawable="@drawable/drawable_circle_timer"
+        android:rotation="-90"
+        android:layout_centerInParent="true"
+        />
+
+    <EditText
+        android:id="@+id/timer_setTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:hint="@string/timer_minute"
+        android:inputType="number"
+        android:maxLength="15"
+        android:maxLines="1"
+        android:minEms="5"
+        android:textColor="@color/colorTimer"
+        android:textColorHint="@color/colorTimer" />
+    <TextView
+        android:id="@+id/timer_countDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/timer_start"
+        android:textColor="@color/colorAccent"
+        android:textSize="40dp"/>
+
+    <ImageView
+        android:id="@+id/timer_reset"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/timer_countDown"
+        android:layout_below="@+id/timer_countDown"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="13dp"
+        android:src="@android:drawable/ic_menu_rotate"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/timer_start"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/timer_reset"
+        android:layout_alignEnd="@+id/timer_countDown"
+        android:layout_toEndOf="@id/timer_reset"
+        android:cropToPadding="false"
+        android:src="@android:drawable/ic_media_play" />
+</RelativeLayout>
